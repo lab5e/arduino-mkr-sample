@@ -47,6 +47,7 @@ void setup()
 
   // Initialise the UDP sender class
   Udp.begin(localPort);
+  Serial.println("Setup complete");
 }
 
 // This is the address and port of the Span service (172.16.15.14:1234)
